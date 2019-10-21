@@ -16,7 +16,7 @@ The `Feed` Collection represents the feed for a `org`, `group` or `user `. A fee
 
 #### Feed
 
-```json
+```javascript
 {
   owner: {
     type: 'group', // 'user', 'org' etc
