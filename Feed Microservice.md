@@ -65,7 +65,7 @@ The `Feed` Collection represents the feed for a `org`, `group` or `user `. A fee
 },
 ```
 
-```json
+```javascript
 {
   type: 'timeline.post.title.renamed',
   post: {
@@ -78,7 +78,7 @@ The `Feed` Collection represents the feed for a `org`, `group` or `user `. A fee
 },
 ```
 
-```json
+```javascript
 {
   type: 'timeline.post.comment.created,
   post: {
