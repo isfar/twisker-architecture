@@ -425,7 +425,7 @@ This table defines privacy for a `Timeline`, `Post` or a `Comment`.
 ### Sample Request
 
 1.
-```json
+```javascript
 {
   action: 'getCommentIdsByPostId',
   postId: 3,
@@ -434,7 +434,7 @@ This table defines privacy for a `Timeline`, `Post` or a `Comment`.
 ```
 
 2.
-```json
+```javascript
 {
   permission: `post.create`,
   userId: 1,
@@ -446,14 +446,14 @@ This table defines privacy for a `Timeline`, `Post` or a `Comment`.
 ### Sample Response
 
 1.
-```json
+```javascript
 {
   commentIds: [ 1, 3, 4, 7, 34, 22, 43, 44 ]
 }
 ```
 
 2.
-```json
+```javascript
 {
   permission: 'denied',
   reason: 'This is some reason why the permission was denied'
