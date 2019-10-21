@@ -53,7 +53,7 @@ The `Feed` Collection represents the feed for a `org`, `group` or `user `. A fee
 
 #### Story
 
-```json
+```javascript
 {
   type: 'timeline.post.created',
   post: {
